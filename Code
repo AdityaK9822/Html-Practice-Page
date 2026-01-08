@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>HTML Practice Page</title>
+        <style>
+            h3 {
+             color:brown
+            }
+        .def{
+             color:blue
+        }
+        .Link{
+             font-family: Courier;
+             text-align: center;
+        }
+        .Sen{
+            font-size: 25px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 id="Demo">
+            HTML Practice
+        </h1>
+        <h3>
+            What is Html?
+        </h3>
+
+        <p class="Def">
+            <b>HTML (HyperText Markup Language)</b> is the <i>standard language</i> used to <em>create and structure the content</em> of web pages.<br><br>It uses a <strong>system of tags and elements to define the structure</strong>, such as headings, paragraphs, links, and images, which a web browser then interprets to display the content to a user. HTML is often used alongside CSS for styling and JavaScript for interactivity to build complete web pages. 
+        <hr>
+
+        <pre>
+     <h3>What HTML does?</h3>
+     <ul >
+        <li>Structures content: It tells a browser how to organize content by labeling it as a heading, a paragraph, or a link, for example.</li>
+        <li>Creates web page elements: It is used to create all the basic building blocks of a webpage, including text, images, videos, forms, and more.</li>
+        <li>Adds metadata: It can include meta information about a webpage, such as its title, which appears in the browser's tab. </li>
+     </ul>
+     <h3>
+        How it works?
+     </h3>
+     <ol >
+        <li>Uses tags: HTML uses "tags" which are instructions enclosed in angle brackets, like <p> for a paragraph or <h1> for a main heading.</li>
+        <li>Forms elements: Tags usually come in pairs, an opening tag and a closing tag, which enclose the content to create an element. For example, <p>This is a paragraph.</p>.</li>
+        <li>Assembles a page: These elements are nested within each other to form the complete structure of a web page, which starts with an (html)root element. </li>
+     </ol>
+</pre>
+</p>
+<p class="Link">
+     <a href="https://www.youtube.com/watch?v=DHGhFJZLKMs" target="_blank">
+    You cn take help of this Video
+     </a>
+</p>
+
+<div class="Sen">
+    <p>This is a <span style="color:green">normal</span> sentence.</p>
+
+</div>
+<button id="submitBtn" style="background-color: #007bff; color: white;">Submit</button>
+
+<footer class="site-footer">
+  <p>All rights reserved, Don't Copy</p>
+</footer>
+    </body>
+
+</html>
